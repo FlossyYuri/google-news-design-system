@@ -1,0 +1,9 @@
+@import '../../assets/scss/variables';
+.shape{
+  border-radius: $radius-size-none;
+  padding: $spacing-size-sm;
+  border-width: $border-size-thin;
+  border-color: $neutral-color-2;
+  border-style: $border-style-solid;
+  background-color: $neutral-color-1;
+}

@@ -21,6 +21,16 @@
         "value": "8px",
         "attributes": { "category": "size", "type": "border" }
       }
+    },
+    "style": {
+      "solid": {
+        "value": "solid",
+        "attributes": { "category": "style", "type": "border" }
+      },
+      "dashed": {
+        "value": "dashed",
+        "attributes": { "category": "style", "type": "border" }
+      }
     }
   },
   "opacity": {
