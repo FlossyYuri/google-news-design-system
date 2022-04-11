@@ -10,14 +10,18 @@
 .card-content {
   .shape {
     height: 100%;
-  }
-  .heading-small {
-    margin-bottom: $spacing-size-xxxs;
-  }
-  .subtitle-small {
-    margin-bottom: $spacing-size-xxs;
-  }
-  .paragraph {
-    margin-bottom: $spacing-size-sm;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .heading-small {
+      margin-bottom: $spacing-size-xxxs;
+    }
+    .subtitle-small {
+      margin-bottom: $spacing-size-xxs;
+    }
+    .paragraph {
+      margin-bottom: $spacing-size-sm;
+      flex: 1;
+    }
   }
 }

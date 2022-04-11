@@ -17,8 +17,8 @@ function CardContent({
     <article className='card-content'>
       <Shape>
         <HeadingSmall>{title}</HeadingSmall>
-        <SubtitleSmall>{content}</SubtitleSmall>
-        <Paragraph>{description}</Paragraph>
+        <SubtitleSmall>{description}</SubtitleSmall>
+        <Paragraph>{content}</Paragraph>
         <ButtonPrimary to={url} type='link'>
           Ler mais
         </ButtonPrimary>
