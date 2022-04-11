@@ -7,3 +7,14 @@
   border-style: $border-style-solid;
   background-color: $neutral-color-1;
 }
+.card-content{
+  .heading-small{
+    margin-bottom: $spacing-size-xxxs;
+  }
+  .subtitle{
+    margin-bottom: $spacing-size-xxs;
+  }
+  .paragraph{
+    margin-bottom: $spacing-size-sm;
+  }
+}

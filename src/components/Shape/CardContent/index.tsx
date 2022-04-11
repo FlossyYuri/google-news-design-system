@@ -1,10 +1,10 @@
 import React from 'react';
-import ButtonPrimary from '../Button/primary';
-import HeadingSmall from '../Heading/small';
-import Paragraph from '../Paragraph';
-import Shape from '../Shape';
-import SubtitleSmall from '../Subtitle';
-import './style.scss';
+import Shape from '..';
+import ButtonPrimary from '../../Button/small';
+import HeadingSmall from '../../Heading/title';
+import SubtitleSmall from '../../Heading/subtitle';
+import Paragraph from '../../Paragraph';
+import '../style.scss';
 
 interface CardContentProps {
   title: string;
