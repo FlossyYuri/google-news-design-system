@@ -5,20 +5,23 @@ import HeadingSmall from '../../Heading/title';
 import SubtitleSmall from '../../Heading/subtitle';
 import Paragraph from '../../Paragraph';
 import '../style.scss';
+import { Article } from '../../interfaces';
 
 interface CardContentProps {
-  title: string;
-  subtitle: string;
-  body: string;
+  article: Article;
 }
-function CardContent({ title, subtitle, body }: CardContentProps) {
+function CardContent({
+  article: { title, content, description, url },
+}: CardContentProps) {
   return (
     <article className='card-content'>
       <Shape>
         <HeadingSmall>{title}</HeadingSmall>
-        <SubtitleSmall>{subtitle}</SubtitleSmall>
-        <Paragraph>{body}</Paragraph>
-        <ButtonPrimary>Ler mais</ButtonPrimary>
+        <SubtitleSmall>{content}</SubtitleSmall>
+        <Paragraph>{description}</Paragraph>
+        <ButtonPrimary to={url} type='link'>
+          Ler mais
+        </ButtonPrimary>
       </Shape>
     </article>
   );

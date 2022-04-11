@@ -414,5 +414,13 @@
         "attributes": { "category": "color", "type": "neutral" }
       }
     }
+  },
+  "animation": {
+    "duration": {
+      "default": {
+        "value": "150ms",
+        "attributes": { "category": "duration", "type": "animation" }
+      }
+    }
   }
 }

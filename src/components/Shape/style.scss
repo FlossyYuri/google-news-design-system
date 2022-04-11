@@ -1,5 +1,5 @@
 @import '../../assets/scss/variables';
-.shape{
+.shape {
   border-radius: $radius-size-none;
   padding: $spacing-size-sm;
   border-width: $border-size-thin;
@@ -7,14 +7,17 @@
   border-style: $border-style-solid;
   background-color: $neutral-color-1;
 }
-.card-content{
-  .heading-small{
+.card-content {
+  .shape {
+    height: 100%;
+  }
+  .heading-small {
     margin-bottom: $spacing-size-xxxs;
   }
-  .subtitle{
+  .subtitle-small {
     margin-bottom: $spacing-size-xxs;
   }
-  .paragraph{
+  .paragraph {
     margin-bottom: $spacing-size-sm;
   }
 }

@@ -1,15 +1,17 @@
 @import '../../assets/scss/variables';
-.button-primary{
+.button-primary {
   border: none;
   font-size: $font-size-sm;
   line-height: $line-height-tight;
   border-radius: $radius-size-none;
-  padding:$spacing-squish-size-xs-v $spacing-squish-size-xs-h;
+  padding: $spacing-squish-size-xs-v $spacing-squish-size-xs-h;
   font-family: $font-family-highlight;
   font-weight: $font-weight-medium;
   color: $brand-color-primary-1;
   background-color: $brand-color-primary-3;
-  &:hover{
+  text-decoration: none;
+  transition: all $animation-duration-default ease-in-out;
+  &:hover {
     background-color: $brand-color-primary-5;
   }
 }
