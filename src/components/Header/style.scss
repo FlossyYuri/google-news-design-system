@@ -1,0 +1,18 @@
+@import '../../assets/scss/variables';
+.header {
+  background-color: $neutral-color-5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: $spacing-squish-size-xs-v $spacing-squish-size-xs-h;
+  .menu-item {
+    color: $neutral-color-1;
+    text-decoration: none;
+    padding: $spacing-squish-size-xs-v $spacing-squish-size-xs-h;
+    transition: all $animation-duration-default ease-in-out;
+    &:hover {
+      box-shadow: $border-size-none $border-size-thin $border-size-none
+        $brand-color-primary-3;
+    }
+  }
+}
